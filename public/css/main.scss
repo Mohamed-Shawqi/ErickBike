@@ -1,0 +1,96 @@
+@import 'sass/layouts/globals';
+@import 'sass/variables/colors';
+@import 'sass/variables/fonts';
+@import 'sass/layouts/header';
+@import 'sass/pages/home';
+@import 'sass/layouts/settingBox';
+@import 'sass/layouts/shopping';
+@import 'sass/layouts/modal';
+@import 'sass/layouts/testimonials';
+@import 'sass/layouts/contact';
+@import 'sass/layouts/footer';
+
+body{
+    font-family: $body-fonts;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.logo-box{
+    display: flex;
+    align-items: center;
+    width: 180px;
+    justify-content: center;
+}
+.logo-img{
+    max-width: 100%;
+}
+.log-in-btn{
+    padding: 15px 40px;
+    background-color:  $gold-color;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: ease-in 0.2s;
+    font-weight: bold;
+
+    &:hover{
+        color: white;
+        
+    }
+}
+
+.sign-up-btn{
+    margin-right: 10px;
+    padding: 13px 40px;
+    background-color:  transparent;
+    border-radius: 3px;
+    color: white;
+    border: 2px solid $gray;
+    cursor: pointer;
+    font-size: 16px;
+    transition: ease-in 0.2s;
+    font-weight: bold;
+
+    &:hover{
+        color: $gold-color;
+        border-color: $gold-color;
+    }
+}
+
+.title{
+    font-size: $font-large;
+}
+
+.txt{
+    color:$txt-clr;
+    font-size: $font-small;
+    padding: 15px 0;
+}
+.full-img{
+    max-width: 100%;
+}
+
+.primary-btn{
+    background-color: $gold-color;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.1s ease-out;
+
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+
+.btn-buy{
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: $gold-color;
+    font-weight: bold;
+    font-size: 0.9rem;
+    width: 100px;
+}

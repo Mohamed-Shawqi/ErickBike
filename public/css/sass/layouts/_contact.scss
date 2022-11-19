@@ -1,0 +1,17 @@
+.contact-us .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+    grid-gap: 100px;
+}
+.contact-form{
+    background-color: #eee;
+    border-radius: 5px;
+    
+    // Grouping elements in contact form 
+    input[type="text"],input[type="email"],textarea{
+        margin: 10px 0;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+}

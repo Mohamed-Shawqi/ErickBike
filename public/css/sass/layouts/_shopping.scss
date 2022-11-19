@@ -1,0 +1,34 @@
+@import '../variables/fonts';
+
+.bicycle-shopping{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shopping-text{
+    font-size: $font-small;
+}
+
+.shopping-box{
+    width: 100%;
+
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.bicycle-box{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.1s linear;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+}

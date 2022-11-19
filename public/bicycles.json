@@ -1,0 +1,32 @@
+{
+    "bicycles" : [
+        {
+            "category":"city bicycle",
+            "name":"10x",
+            "imgSrc":"./images/Erik/bicycle1.png",
+            "price": 1500,
+            "id":1
+        },
+        {
+            "category":"Electric bicycle",
+            "name":"111z",
+            "imgSrc":"./images/Erik/bicycle2.png",
+            "price": 800,
+            "id":2
+        },
+        {
+            "category":"children's bicycles",
+            "name":"14x",
+            "imgSrc":"./images/Erik/bicycle3.png",
+            "price": 1000,
+            "id":3
+        },
+        {
+            "category":"Transport bicycles",
+            "name":"120v",
+            "imgSrc":"./images/Erik/bicycle4.png",
+            "price": 562,
+            "id":4
+        }
+    ]
+}

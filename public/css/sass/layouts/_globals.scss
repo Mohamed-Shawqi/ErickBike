@@ -1,0 +1,113 @@
+@import '../variables/fonts';
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: 0.2s;
+
+    &:hover{
+        color: gold;
+    }
+}
+
+// paddings
+
+.p-10{
+    padding: 10px;
+}
+.p-20{
+    padding: 20px;
+}
+
+.p-40{
+    padding: 40px;
+}
+.py-10{
+    padding: 10px 0;
+}
+.py-40{
+    padding: 40px 0;
+}
+.py-50{
+    padding: 50px 0;
+}
+.py-70{
+    padding: 70px 0;
+}
+.px-10{
+    padding: 0 10px ;
+}
+.px-40{
+    padding: 0 40px ;
+}
+.px-50{
+    padding: 0 50px ;
+}
+
+.pl-20{
+    padding-left:20px
+}
+.pr-20{
+    padding-right:20px;
+}
+.pr-40{
+    padding-right:40px;
+}
+.pt-10{
+    padding-top: 10px;
+}
+.pb-10{
+    padding-bottom: 10px;
+}
+.pb-20{
+    padding-bottom: 20px;
+}
+.pb-40{
+    padding-bottom: 40px;
+}
+
+
+// ############# Start Flex Box Section 
+.d-f{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+.justify-content-evenly{
+    justify-content: space-evenly;
+}
+.align-items-center{
+    align-items: center;
+}
+.f-direction-col{
+    flex-direction: column;
+}
+
+// ############# End Flex Box Section 
+
+.h-100{
+    height: 100%;
+}
+
+.txt-center{
+    text-align: center;
+}
+.w-40{
+    width: 40%;
+}
+
